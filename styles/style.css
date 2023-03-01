@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+background: rgb(3, 3, 3);
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px
+}
+.title{
+    padding: 8rem;
+    font-family: 'PT Sans', sans-serif;
+    flex: auto;
+    position: relative;
+    font-size: 5rem;
+    color: rgb(128, 224, 224)
+}
+.banner{
+    color: rgb(183, 183, 98);
+    top: 0;
+    left: 0;
+    height: 80vh;
+    background-image:url('/images/banner.jpg');
+    text-align: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(175, 242, 242);
+}
+.sub-title {
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    color: rgb(175, 242, 242);
+}
+.images{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    width: 550px;
+    height: 350px;
+    align-items: center;
+}
+.sub-title1{
+    color: #fff;
+    display: flex;
+    width: 600px;
+    color: rgb(246, 235, 135);
+    align-items: center;
+    
+}
